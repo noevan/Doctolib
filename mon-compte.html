@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Medecin</title>
+
+    <meta charset="utf-8">
+    <meta name="description" content="UGC">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link href="/css/mon-compte.css" rel="stylesheet" />
+    <link href="/css-mobile/solution-mobile.css" rel="stylesheet" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <section class="top-nav">
+        <div>
+            <a href="./index.html">
+                <img class="logo" src="img/fam.webp" alt="Logo de l'entreprise">
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li href="./solution.html">Devenir praticien</li>
+            <li href="./app.html">Centre d'aide</li>
+            <li href="./login.html">Se connecter</li>
+        </ul>
+    </section>
+
+    <header>
+        <div class="limitedWidthBlockContainer menu">
+            <div class="limitedWidthBlock">
+                <a href="./index.html">
+                    <img class="logo" src="/img/fam.webp" alt="Logo de l'entreprise">
+                </a>
+                <nav>
+                    <a class="nrml" href="#">
+                        <li>Besoin d'aide</li>
+                    </a>
+                    <a class="nrml" href="#">
+                        <li>Mes Rendez-vous</li>
+                    </a>
+                    <a class="nrml" href="#">
+                        <li>Mes Documents</li>
+                    </a>
+
+                    <a class="nrml" href="mon-compte.html">
+                        <li>Mon compte</li>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+</body>
+
+<main>
+    <h2>Mon compte</h2>
+    <section id="section1">
+        <article id="article1">
+            <h3>Votre santé. Vos données.</h3>
+            <p>La confidentialité de vos informations personnelles est une priorité absolue<br> pour Doctolib et
+                guide notre
+                action au quotidien.</p>
+            <button>DECOUVRIR NOS ENGAGEMENTS</button>
+        </article>
+
+        <aside id="aside1">
+            <img src="/img/8ad289ca8dccfcb5d6f6.png">
+        </aside>
+    </section>
+
+    <section id="section2">
+
+        <div class="center">
+            <input type="checkbox" id="show">
+            <div class="minc">
+                <h4>Identité</h4>
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5>Mon profil</h5>
+                        <p>Ajoutez vos information personnelles</p>
+                </div>
+                </label>
+
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5>Mes proches</h5>
+                        <p>Ajoutez et gérer le profil de vos proches</p>
+                </div>
+            </div>
+            </label>
+            <div class="minc">
+                <h4>Connexion</h4>
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5>Téléphone</h5>
+                        <p>06 12 34 56 78</p>
+                </div>
+                </label>
+
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5>Email</h5>
+                        <p>Lorem@fam-digitale.com</p>
+                </div>
+                </label>
+
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5>Mot de passe</h5>
+                        <p>********</p>
+                </div>
+                </label>
+            </div>
+
+            <div class="minc">
+                <h4>Confidentialité</h4>
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5
+                            style="border-bottom: rgba(128, 128, 128, 0.281) 1px solid; padding: 15px 20px; font-weight: 500;">
+                            Mes préferences</h5>
+                </div>
+                </label>
+
+                <div class="mincmin">
+                    <label for="show" class="show-btn">
+                        <h5
+                            style="border-bottom: rgba(128, 128, 128, 0.281) 1px solid; padding: 15px 20px; font-weight: 500;">
+                            Information légale</h5>
+                </div>
+                </label>
+
+                <div class="mincmin">
+                    <h5 style="color: red;">Déconnexion</h5>
+                </div>
+            </div>
+
+            <div class="container">
+                <label for="show" class="close-btn fas fa-times" title="close"></label>
+                <div class="text">
+                    Ajoutez mon profil
+                </div>
+                <div class="gender-details-box">
+                    <span class="gender-title">Gender</span>
+                    <div class="gender-category">
+                        <div class="homme">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Masculin</label>
+                        </div>
+                        <div class="homme">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Feminin</label>
+                        </div>
+                    </div>
+                </div>
+                <form action="#">
+                    <div class="data">
+                        <label>Prénom</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="data">
+                        <label>Nom</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="data">
+                        <label>Nom de naissance</label>
+                        <input type="text" required>
+                    </div>
+                    <div class="data">
+                        <label>Date de naissance</label>
+                        <input type="date" required>
+                    </div>
+                    <div class="data">
+                        <label>Lieu de naissance</label>
+                        <div class="ln">
+                            <select name="lieu" id="lieu-select">
+                                <option value="france">Né(e) en France</option>
+                                <option value="étranger">Né(e) à l'étranger</option>
+                                <option value="inconnu">Lieu inconnu</option>
+                            </select>
+                            <input type="date" placeholder="Lieu de naissance" required>
+                        </div>
+                    </div>
+                    <div class="data">
+                        <label>Adresse</label>
+                        <input type="text" required>
+                        <div class="adress">
+                            <input type="text" placeholder="Code postal" required>
+                            <input type="text" placeholder="Ville" required>
+                        </div>
+
+                    </div>
+                    <div class="btn">
+                        <div class="inner"></div>
+                        <button type="submit">AJOUTER</button>
+                    </div>
+                </form>
+            </div>  
+        </div>
+    </section>
+</main>

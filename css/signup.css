@@ -1,0 +1,236 @@
+body{
+    background-color: #e9f1f6;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+/*Header*/
+
+/*maxwidth + centering*/
+.limitedWidthBlockContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+  }
+  
+  .limitedWidthBlock {
+    width: 100%;
+    max-width: 95%;
+    padding: 10px 0 0 0;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  /*informations*/
+  .informations {
+    font-size: 13px;
+    background-color: var(--main-color);
+  }
+  
+  .informations img {
+    height: 12px;
+  }
+  
+  .informations ul {
+    display: flex;
+    padding-left: 0;
+  }
+  
+  .informations ul li {
+    display: flex;
+    list-style: none;
+    margin-right: 36px;
+  }
+  
+  .informations__phone,
+  .informations__mail {
+    margin-right: 10px;
+  }
+  
+  /*menu*/
+  .menu {
+    background-color: #3498db;
+  }
+  
+  .menu .limitedWidthBlock {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .menu nav {
+    display: flex;
+    margin-top: -5px;
+  }
+  
+  .menu nav ul {
+    display: flex;
+    margin: 0;
+    line-height: 130px;
+  }
+  
+  .menu nav .nrml {
+    list-style: none;
+    margin-left: 50px;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    height: 100px;
+  }
+  
+  .menu nav .whitebtn {
+    border-radius: 8px;
+    color: #3498db;
+    background-color: white;
+    font-weight: 600;
+    margin-top: 44px;
+    height: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    list-style: none;
+  }
+  
+  .header {
+    box-sizing: border-box;
+    height: 50px;
+    background-color: #3498db;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgb(0 0 0 / 0%);
+  }
+  
+  @media screen and (min-width: 1024px) {
+    .top-nav {
+      display: none;
+    }
+  }
+
+.signup{
+    background: #FFFFFF;
+    padding: 0px 30px 32px;
+    width: 350px;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 1% 38%;
+}
+
+.signup a{
+    color: #3498db;
+    text-align: center;
+    text-decoration-line: none;
+    font-size: 16px;
+}
+
+.signup a{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    padding-top: 15px;
+    text-align: center;
+}
+
+
+#form{
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 40px 30px 32px;
+    width: 350px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 1% 38%;
+}
+
+#form img{
+    height: 40px;
+    width: 180px;
+    object-fit: contain;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+h3{
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    color: #363636;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+h4{
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 4px;
+    color: #363636;
+    padding: 5px;
+}
+
+#form input{
+    display: flex;
+    height: 44px;
+    border: solid 1px #BCC4CC;
+    border-radius: 8px;
+    outline: none;
+    padding: 0 20px;
+    margin: 1px;
+    font-size: 13px;
+    transition: all 0.2s;
+    font-weight: 500;
+    width: calc(100% - 44px);
+    max-width: calc(100% - 44px);
+    background-color: #FFFFFF;
+}
+
+a{
+    font-size: 14px;
+    font-weight: 700;
+    color: #7B93FF;
+    margin-top: 8px;
+    cursor: pointer;
+    text-decoration: underline #7B93FF;
+}
+
+button{
+    background: #D4D4D4;
+    color: #FFFFFF;
+    cursor: pointer;
+    box-shadow: none;
+    padding: 12px;
+    border-radius: 8px;
+    margin: 5px;
+    border: none;
+}
+
